@@ -1,0 +1,22 @@
+# Python / Environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Data & Outputs
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+outputs/figures/*
+outputs/reports/*
+*.log
+.DS_Store
