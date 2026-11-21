@@ -18,5 +18,12 @@ data/processed/*
 !data/processed/.gitkeep
 outputs/figures/*
 outputs/reports/*
+!outputs/reports/*.md
 *.log
 .DS_Store
+
+# Testing & caches
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
